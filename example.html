@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./vendor/example-style.css" type="text/css">
+    <title>Hellsing</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="wrapper">
+            <nav class="head-nav">
+                <div class="menu">
+                    <a href="./about.html" class="nav-link">Hellsing</a>
+                    <a href="./dict.html" class="nav-link">Словарь</a>
+                    <a href="./example.html" class="nav-link nav-reverse">Слайдики</a>
+                    <a href="./test.html" class="nav-link">Тест</a>
+                </div>
+                <div class="menu" id="account">
+                    <!-- <img src="./images/icons/android_icon.svg" class="user-img" alt="user alternative"> -->
+                    <a href="./account.html" class="nav-link" id="account-btn">Акаунт</a>
+                    <a href="#" class="nav-link" id="logout-btn">Выйти</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="example-main">
+        <section class="example-title-sect">
+            <div class="wrapper">
+                <div class="example-title">
+                    <h1>Слайдики</h1>
+                </div>
+            </div>
+        </section>
+        <section class="example-sect">
+            <div class="wrapper">
+                <div class="slider-cont">
+                    <div class="slider">
+                        <figure class="frame">
+                            <div class="img-box">
+                                <img src="./images/slider-frames/1.jpg" alt="slider frame">
+                            </div>
+                            <figcaption>Молодой</figcaption>
+                        </figure>
+                        <figure class="frame">
+                            <div class="img-box">
+                                <img src="./images/slider-frames/2.jpg" alt="slider frame">
+                            </div>
+                            <figcaption>Типо босс (он и есть босс)</figcaption>
+                        </figure>
+                        <figure class="frame">
+                            <div class="img-box">
+                                <img src="./images/slider-frames/3.jpg" alt="slider frame">
+                            </div>
+                            <figcaption>Крутой</figcaption>
+                        </figure>
+                        <figure class="frame">
+                            <div class="img-box">
+                                <img src="./images/slider-frames/4.jpg" alt="slider frame">
+                            </div>
+                            <figcaption>Такой отец</figcaption>
+                        </figure>
+                        <figure class="frame">
+                            <div class="img-box">
+                                <img src="./images/slider-frames/5.jpg" alt="slider frame" id="reisze">
+                            </div>
+                            <figcaption>Поставте зачет пж...</figcaption>
+                        </figure>
+                    </div>
+                    <div class="switches">
+                        <div class="switch-box">
+                            <button class="switch" id="left">
+                                <p>Туда</p>
+                            </button>
+                        </div>
+                        <div class="switch-box">
+                            <button class="switch" id="right">
+                                <p>Сюда</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="frame-counter">
+                    <div class="counter-text">
+                        <p>Фоточки папочки</p>
+                    </div>
+                    <div class="counter-box">
+                        <p id="counter">1 / 5</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer-info">
+                <div class="contacts-cont">
+                    <div class="contact-box">
+                        <h4>Hellsing</h4>
+                    </div>
+                    <div class="contact-box social">
+                        <div class="link-box">
+                            <a href="#">Instagram</a>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <p>xxxxxx@gmail.com</p>
+                    </div>
+                    <div class="contact-box social">
+                        <div class="link-box">
+                            <a href="#">Twitter</a>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <p>+7(999)999-99 99</p>
+                    </div>
+                    <div class="contact-box social">
+                        <div class="link-box">
+                            <a href="#">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-cont" bis_skin_checked="1">
+                    <p>© 2024 Hellsing</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="./scripts/sliderApp.js"></script>
+</body>
+
+</html>
